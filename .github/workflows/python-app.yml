@@ -28,4 +28,4 @@ jobs:
         python -m pip install --upgrade pip
     - name: Test
       run: |
-        python3 noodle.py nythonTest.noodles
+        python3 noodle.py run testNython.noodles
